@@ -21,24 +21,60 @@ function App() {
         </div>
         <div className="container">
           <div className="tool-main">
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
-            <div className="tool-box">asdsad</div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12 ">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
+            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
+              asdsad
+            </div>
           </div>
         </div>
       </div>
