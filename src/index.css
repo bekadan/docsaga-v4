@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #f3f0ec;
+  background-color: #f7f5f2;
 }
 
 .site-main-wrapper {
@@ -8,6 +8,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 56px auto 41px;
   grid-template-areas: "site-navbar" "site-main" "site-footer";
+  min-height: 100vh;
 }
 
 .site-navbar {
@@ -26,4 +27,51 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.home-title {
+  position: relative;
+  padding: 30px 45px;
+  text-align: center;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0, #251944),
+      color-stop(50%, #3061c7),
+      to(#3061c7)
+    )
+    #44287d;
+  background: -webkit-linear-gradient(left, #251944, #3061c7 50%, #e6a209)
+    #44287d;
+  background: -o-linear-gradient(left, #251944 0, #3061c7 50%, #e6a209 100%)
+    #44287d;
+  background: linear-gradient(90deg, #251944, #3061c7 50%, #e6a209) #44287d;
+  height: 250px;
+  color: white;
+}
+
+.tool-main {
+  background-color: white;
+  position: relative;
+  margin-top: -100px;
+  margin: -100px auto 100px auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  border: 1p solid transparent;
+  overflow: hidden;
+}
+
+.tool-box {
+  height: 300px;
+  width: 324px;
+  border: 1px solid #f6f6f8;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.tool-box:hover {
+  background-color: #f6f6f8;
 }
