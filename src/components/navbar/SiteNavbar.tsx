@@ -2,8 +2,8 @@ import React from "react";
 
 const SiteNavbar: React.FC = () => {
   return (
-    <nav className="navbar shadow-sm navbar-expand-md bg-white">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-md bg-white">
+      <div className="container">
         <a className="navbar-brand" href="#">
           Navbar
         </a>

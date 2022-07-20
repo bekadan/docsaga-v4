@@ -1,6 +1,9 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
 import SiteFooter from "./components/footer/SiteFooter";
 import SiteNavbar from "./components/navbar/SiteNavbar";
+import Home from "./pages/Home";
+import Merge from "./pages/pdf-tools/Merge";
 
 function App() {
   return (
@@ -9,74 +12,10 @@ function App() {
         <SiteNavbar />
       </div>
       <div className="site-main">
-        <div className="home-title">
-          <h1>
-            <b>Every tool you need to work with PDFs in one place</b>
-          </h1>
-          <h6>
-            Every tool you need to use PDFs, at your fingertips. All are 100%
-            FREE and easy to use! Merge, split, compress, convert, rotate,
-            unlock and watermark PDFs with just a few clicks.
-          </h6>
-        </div>
-        <div className="container">
-          <div className="tool-main">
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12 ">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-            <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
-              asdsad
-            </div>
-          </div>
-        </div>
+        <Routes>
+          <Route element={<Home />} path="/" />
+          <Route element={<Merge />} path="/merge-pdf" />
+        </Routes>
       </div>
       <div className="site-footer">
         <SiteFooter />
