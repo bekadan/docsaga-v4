@@ -5,7 +5,7 @@ const SiteNavbar: React.FC = () => {
     <nav className="navbar navbar-expand-md bg-white">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Navbar
+          <img src={process.env.PUBLIC_URL+"/icons/logo.svg"} height={20} />
         </a>
         <button
           className="navbar-toggler"
