@@ -14,7 +14,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12 ">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/merge.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/merge.svg"}
+                />
               </p>
               <p className="tool-title">Merge PDF</p>
             </div>
@@ -26,7 +29,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/split.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/split.svg"}
+                />
               </p>
               <p className="tool-title">Split PDF</p>
             </div>
@@ -39,7 +45,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/compress.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/compress.svg"}
+                />
               </p>
               <p className="tool-title">Compress PDF</p>
             </div>
@@ -52,7 +61,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/edit.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/edit.svg"}
+                />
               </p>
               <p className="tool-title">Edit PDF</p>
             </div>
@@ -65,7 +77,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/toWord.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/toWord.svg"}
+                />
               </p>
               <p className="tool-title">PDF to Word</p>
             </div>
@@ -78,7 +93,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/toPowerPoint.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/toPowerPoint.svg"}
+                />
               </p>
               <p className="tool-title">PDF to PowerPoint</p>
             </div>
@@ -91,7 +109,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/toExcel.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/toExcel.svg"}
+                />
               </p>
               <p className="tool-title">PDF to Excel</p>
             </div>
@@ -104,7 +125,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/toJpg.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/toJpg.svg"}
+                />
               </p>
               <p className="tool-title">PDF to JPG</p>
             </div>
@@ -117,7 +141,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/wordToPdf.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/wordToPdf.svg"}
+                />
               </p>
               <p className="tool-title">Word to PDF</p>
             </div>
@@ -130,7 +157,12 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/powerPointToPdf.svg"} />
+                <img
+                  alt=""
+                  src={
+                    process.env.PUBLIC_URL + "/icons/tools/powerPointToPdf.svg"
+                  }
+                />
               </p>
               <p className="tool-title">PowerPoint to PDF</p>
             </div>
@@ -143,7 +175,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/excelToPdf.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/excelToPdf.svg"}
+                />
               </p>
               <p className="tool-title">Excel to PDF</p>
             </div>
@@ -156,7 +191,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/jpgToPdf.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/jpgToPdf.svg"}
+                />
               </p>
               <p className="tool-title">JPG to PDF</p>
             </div>
@@ -169,7 +207,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/sign.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/sign.svg"}
+                />
               </p>
               <p className="tool-title">Sign PDF</p>
             </div>
@@ -182,7 +223,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/rotate.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/rotate.svg"}
+                />
               </p>
               <p className="tool-title">Rotate PDF</p>
             </div>
@@ -195,7 +239,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/protect.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/protect.svg"}
+                />
               </p>
               <p className="tool-title">Protect PDF</p>
             </div>
@@ -208,7 +255,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/unlock.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/unlock.svg"}
+                />
               </p>
               <p className="tool-title">Unlock PDF</p>
             </div>
@@ -221,7 +271,10 @@ const Home = () => {
           <div className="tool-box col-6 col-md-3 col-sm-6 col-xs-12">
             <div className="tool-box-header">
               <p>
-                <img src={process.env.PUBLIC_URL + "/icons/tools/repair.svg"} />
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/icons/tools/repair.svg"}
+                />
               </p>
               <p className="tool-title">Repair PDF</p>
             </div>
@@ -230,9 +283,6 @@ const Home = () => {
               independent PDF files.
             </p>
           </div>
-
-          
-         
         </div>
       </div>
     </>
