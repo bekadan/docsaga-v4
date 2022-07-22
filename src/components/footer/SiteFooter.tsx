@@ -2,8 +2,8 @@ import React from "react";
 
 const SiteFooter: React.FC = () => {
   return (
-    <div className="container-fluid p-0 m-0 bg-white">
-      <footer className="d-flex flex-wrap justify-content-between px-2 align-items-center border-top ">
+    <div className="container-fluid bg-white">
+      <footer className="container d-flex flex-wrap justify-content-between px-2 align-items-center">
         <p className="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
 
         <a
